@@ -124,7 +124,7 @@ else if($_SESSION['level']=="petugas"){
                 </ul>
               </li>
               <li class="menu-header">Fitur</li>
-              <li><a class="nav-link" href="blank.html"><i class="fas fa-money-check-alt"></i> <span>TRANSAKSI PEMBAYARAN</span></a></li>
+              <li><a class="nav-link" href="dashboard2.php"><i class="fas fa-money-check-alt"></i> <span>PRODUCT</span></a></li>
         </aside>
       </div>
       

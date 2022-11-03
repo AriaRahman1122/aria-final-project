@@ -70,11 +70,11 @@
                    </div>
               </div>
                     <div class="form-group">           
-                      <label>NISN</label>
+                      <label>NIK</label>
                       <div class="input-group">
                      <div class="col-lg-12 col-md-12">
                         <select  class="form-control" name="nisn">
-                       <option value="not_option">Silahkan Pilih NISN</option>
+                       <option value="not_option">Silahkan Pilih NIK</option>
                     <?php
                         // jalankan query untuk menampilkan semua data diurutkan berdasarkan id
                         $query = "SELECT * FROM siswa ORDER BY nisn ASC";
@@ -110,30 +110,30 @@
                         <input type="date" class="form-control" name="tanggal_bayar" autofocus="" required="" />
                       </div>
                     </div>
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label>Bulan Dibayar</label>
                            <div class="input-group">
                             <div class="input-group-prepend">
-                              <div class="input-group-text"><i class="fas fa-calendar"></i></div>
+                              <div class="input-group-text"></div>
                             </div>
                             <input type="date" class="form-control" name="bulan_bayar" autofocus="" required="" />
                           </div>
-                      </div>
+                      </div> -->
                       <div class="form-group">
                         <label>Tahun Dibayar</label>
                           <div class="input-group">
                             <div class="input-group-prepend">
-                              <div class="input-group-text"><i class="fas fa-calendar"></i></div>
+                              <div class="input-group-text"></div>
                             </div>
                             <input type="date" class="form-control" name="tahun_dibayar" autofocus="" required="" />
                           </div>
                     </div>
                  <div class="form-group">           
-                      <label>SPP Perbulan</label>
+                      <label>Nominal</label>
                       <div class="input-group">
                      <div class="col-lg-12 col-md-12">            
                 <select  class="form-control" name="spp">
-               <option value="not_option">Silahkan Pilih SPP Perbulan</option>
+               <option value="not_option">Silahkan Pilih Nominal</option>
             <?php
                 // jalankan query untuk menampilkan semua data diurutkan berdasarkan id
                 $query = "SELECT * FROM spp ORDER BY nominal ASC";
@@ -161,7 +161,7 @@
            </div>
       </div>
           <div class="form-group">
-                        <label>Jumlah Bayar</label>
+                        <label>Jenis Jasa</label>
                           <div class="input-group">
                             <div class="input-group-prepend">
                               <div class="input-group-text"><i class="tim-icons icon-coins"></i></div>

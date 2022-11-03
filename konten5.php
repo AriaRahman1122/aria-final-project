@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Pembayaran</title>
+    <title>Transaksi Pembayaran</title>
     
   </head>
 <body>
@@ -23,7 +23,7 @@
       <div class="main-content">
         <section class="section">
           <div class="section-header">
-            <h1>Pembayaran</h1>
+            <h1>Transaksi Pembayaran</h1>
             <div class="section-header-breadcrumb">
             </div>
           </div>
@@ -60,12 +60,12 @@
                                         <tr>                         
                                          <th>No</th>
                                           <th>Nama Petugas</th>
-                                          <th>NISN</th>
+                                          <th>NIK</th>
                                           <th>Tanggal Bayar</th>
                                           <th>Bulan Dibayar</th>
                                           <th>Tahun Dibayar</th>
-                                          <th>Spp Per Bulan</th>
-                                          <th>Jumlah Dibayar</th>
+                                          <th>Nominal</th>
+                                          <th>Jenis Jasa</th>
                                           <th>Action</th>
                                         </tr>
                                     </thead>
